@@ -1,0 +1,60 @@
+.body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+.navbar,.footer{
+    width: 100%;
+    min-height: 30px;
+    line-height: 30px;
+    background-color: rgb(185, 166, 57);
+    text-align: center;
+    
+}
+.navbar{
+    margin-bottom: 10px;
+}
+.header{
+    width: 100%;
+    min-height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background-color: brown;
+    margin-bottom: 10px;
+}
+.main{
+    width: 100%;
+    background-color:rgb(146, 77, 77) ;
+    margin-bottom: 10px;
+    
+}
+.leftsidebar{
+    width: 25%;
+    min-height: 400px;
+    line-height: 400px;
+    text-align: center;
+    background-color: cadetblue;
+    float: left;
+    
+}
+.rightsidebar{
+    width: 75%;
+    min-height: 400px;
+    line-height: 400px;
+    text-align: center;
+    background-color:maroon ;
+    float: right;
+    
+}
+
+.clearfix{
+    content:"";
+    display: block;
+    clear: both;
+}
+.wrapper{
+    width: 100%;
+    background-color: burlywood;
+    margin: auto;
+}
